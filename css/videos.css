@@ -1,0 +1,100 @@
+body {
+  font-family: Khmer, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.video-container {
+  width: 80%;
+  max-width: 900px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.videos {
+  margin-top: 20px;
+  text-align: left;
+  width: 80%;
+  max-width: 900px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.videos h3 {
+  text-align: left;
+  font-size: 18px;
+  color: #444;
+}
+
+.videos a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #007bff;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.videos a:hover {
+  background: #e0e0e0;
+}
+
+.videos a span {
+  font-size: 14px;
+  color: #666;
+}
+
+.videos a.active {
+  background: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.for-download {
+  color: black !important;
+}
+
+.warning {
+  font-weight: bold;
+  color: red;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.note span {
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.note {
+  font-size: 18px;
+  color: black;
+}

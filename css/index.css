@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("../img/background.[random].jpg") no-repeat center
+    center/cover;
+  margin: 0;
+}
+
+h2 {
+  color: white;
+}
+
+.login-container {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 30px;
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.input-group {
+  margin: 10px 0;
+}
+
+input {
+  width: 86%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #3295ff;
+}
